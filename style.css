@@ -4,4 +4,11 @@
 }
 h2{
     text-align: center;
+    color: white;
+}
+body{
+    background-image: url(img/fondo-tecnologia-placa-circuito-sistema-conexion-datos-digitales-alta-tecnologia-computadora-electronica_29971-480.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }

@@ -2,3 +2,163 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    background-image: url(img/fondo-tecno-rejilla-conexion_1048-11766.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+h2{
+    text-align: center;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(6, 200px);
+
+    grid-template-areas: 
+    
+    "img-1 img-2"
+    "img-3 img-4"
+    "img-5 img-6"
+    "img-7 img-8"
+    "img-9 img-10"
+    "img-11 img-12"
+    
+        
+    
+    
+    ;
+
+}
+
+.img-1{
+    grid-area: img-1;
+    background-image: url(img/D_NQ_NP_775503-MLA45043082424_032021-W.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.img-2{
+    grid-area: img-2;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.img-3{
+    grid-area: img-3;
+    background-image: url(img/D_NQ_NP_746372-MLA47262400839_082021-O.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.img-4{
+    grid-area: img-4;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.img-5{
+    grid-area: img-5;
+    background-image: url(img/D_NQ_NP_959491-MLA31596311987_072019-O.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.img-6{
+    grid-area: img-6;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.img-7{
+    grid-area: img-7;
+    background-image: url(img/descargaasd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.img-8{
+    grid-area: img-8;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.img-9{
+    grid-area: img-9;
+    background-image: url(img/descargasd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.img-10{
+    grid-area: img-10;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.img-11{
+    grid-area: img-11;
+    background-image: url(img/Disco-duro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.img-12{
+    grid-area: img-12;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+@media screen and (max-width: 480px) {
+
+
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(12, 200px);
+    
+        grid-template-areas: 
+        
+        "img-1"
+        "img-2"
+        "img-3" 
+        "img-4"
+        "img-5" 
+        "img-6" 
+        "img-7"
+        "img-8" 
+        "img-9" 
+        "img-10" 
+        "img-11" 
+        "img-12"
+    }
+}
+
+
+

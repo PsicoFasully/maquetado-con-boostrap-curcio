@@ -3,6 +3,14 @@
     padding: 0;
 }
 h2{
+    
     text-align: center;
     border: 2px solid black;
+}
+
+body{
+    background-image: url(img/fondo-tecnologia-digital-alambre-malla-red_1017-27428.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
