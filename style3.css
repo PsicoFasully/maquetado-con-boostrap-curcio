@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: white;
+text-align: center;
+border: 2px solid white;
+
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    background-image: url(img/noche-en-las-montanas-con-planetas-de-fondo-7980.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
